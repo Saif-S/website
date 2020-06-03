@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face{
+font-family:'saira';
+src:url(assets/font/webfonts/Saira/Saira-ExtraLight.ttf);
+}
+@font-face{
+    font-family:'Aileron';
+src: url(assets/font/webfonts/Aileron-Regular.otf);
+}
+body{
+    font-family:'Aileron';
+    font-family: 'Saira';
+}
+body { 
+    margin: 0;
+    font-family:saira,sans-serif;
+   width: 100%;
+  }
+  body, html{
+      overflow-x: hidden!important;
+  }

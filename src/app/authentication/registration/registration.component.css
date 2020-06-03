@@ -1,0 +1,163 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   width: 100%;
+  }
+.register{
+	height: 100vh;
+	background-image: url("src/assets/img/login.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:0 auto;
+}
+.log{
+    margin:15px 20px;
+	height: 30px;
+	color:black;
+    background: white;
+    float:right;
+    border: white;
+    border-radius: 30px;
+    width: 120px;
+    font-size: 14px;
+    outline-style: none;
+    font-family:saira, sans-serif;
+    font-weight:800;
+}
+img{
+	width: 150px;
+  margin-top: 20px;
+  margin-bottom:12px;
+}
+.box{
+    height: auto;
+	width: 40%;
+    background:#fff;
+    border-radius:70px;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 4px 0px #888888;
+	text-align: center;
+    margin: 20px auto 0px auto;
+    padding: 15px 0px 30px 0px;
+}
+.logo{
+    width: 20%;
+}
+.email{
+    border-radius: 10px;
+	border:1px solid #fff;
+	width: 75%;
+    height: 25px;
+    margin: 10px;
+    box-shadow: 1px 2px 5px 2px lightgrey;
+    padding: 15px;
+    font-size: 12px;
+    outline-style: none;
+      
+}
+  .chk {
+    display: block;
+    position: relative;
+    left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top:18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  /* Hide the browser's default checkbox */
+.chk input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border:2px solid black;
+    border-radius: 5px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .chk:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .chk input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .chk input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .chk .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .sign{
+      margin-top:12px;
+      width: 120px;
+      height:30px;
+      border-radius: 25px;
+    color:white;
+    background-color: #FD9E00;
+    border: 1px solid #FD9E00;
+    font-weight: 700;
+    font-size: 14px;
+    outline-style: none;
+    margin-left: 15px;
+  }
+  @media only screen and (max-width:500px){
+      .box{
+        width:100%;
+        border-radius: 20px;
+      }
+      .log{
+        width: 70px;
+        position: relative;
+        bottom: 50px;
+        background-color: orange;
+        color: white;
+        font-weight: 600;
+        margin: 20px 0px 0px; 
+        outline-style: none;
+      }
+      .img{
+        width:150px;
+      }
+      .checkmark{
+       margin: 0 60px;
+      }
+      .register{
+        background-image: unset;
+      }
+  }

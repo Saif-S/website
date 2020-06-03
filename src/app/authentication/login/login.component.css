@@ -1,0 +1,118 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   width: 100%;
+  }
+.login{
+	height: 100vh;
+	background-image: url("src/assets/img/login.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:0 auto;
+}
+.regi{
+	
+	margin:15px 10px;
+	height: 30px;
+	color:black;
+    background: white;
+    float:right;
+    border: white;
+    border-radius: 30px;
+    width: 120px;
+    font-family: saira, sans-serif;
+    font-weight: bold;
+
+}
+img{
+	width: 150px;
+    margin-top: 20px;
+    margin-bottom:12px;
+}
+.box{
+    height: 320px;
+	width: 45%;
+    background:#fff;
+    border-radius:100px;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 4px 0px #888888;
+	text-align: center;
+	align-items: center;
+	margin: 5% auto 80px auto;
+}
+.logo{
+    width: 22%;
+}
+.email{
+    border-radius: 10px;
+	border:1px solid #fff;
+	width: 70%;
+    height: 40px;
+    margin: 15px;
+    box-shadow: 1px 2px 5px 2px lightgrey;
+    padding: 15px;
+    outline-style: none;
+    font-family: saira, sans-serif;
+      
+}
+.log{
+    width:108px;
+    border-radius: 25px;
+    color:white;
+    background-color: #FD9E00;
+    border: 1px solid #FD9E00;
+    font-weight: 700;
+    height: 30px;
+    outline-style: none;
+    font-family:saira, sans-serif;
+      
+}
+.cloud{
+    margin-top: 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    
+}
+.click{
+    color:#FD9E00;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px solid #FD9E00;
+}
+.click:hover{
+    color:orange;
+}
+.free{
+    color:white;
+    float: right;
+    font-size: 46px;
+    margin:30px 15px 0px 0px;
+    font-weight: 300;
+}
+@media only screen and (max-width:500px){
+    .box{
+       
+        width: 100%;
+        border-radius: 20px;
+    }
+.regi{
+    width: 90px;
+    position: relative;
+    bottom: 50px;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+}
+.login{
+    background-image: unset;
+}
+.img{
+    width: 130px;
+}
+.cloud{
+    font-size: 12px;
+}
+.email{
+    width:85%;
+}
+}
