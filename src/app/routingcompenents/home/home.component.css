@@ -789,6 +789,8 @@ margin:20px 0px 0px 50px;
 .man img{
     width: 100%;
     margin-left: 15px;
+    position: relative;
+    bottom:128px;
 }
 .companies{
     background-image: url('../../../assets/img/Group35693.png');
