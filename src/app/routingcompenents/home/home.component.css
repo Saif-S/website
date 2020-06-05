@@ -72,9 +72,6 @@
     padding : 0px;
     cursor: pointer;
   }
-  .sky-head li{
-      width: 17%;
-  }
   .sky-head a{
       padding: 0px!important;
       color: #000!important;
@@ -92,7 +89,7 @@
       justify-content:flex-end;
       text-align: right;
   }
-  .active{
+  .active:hover{
       color: #FD9E00!important;
       border-bottom: 2px solid #FD9E00;
     
@@ -230,7 +227,7 @@
       outline-style: none;   
   }
   .audi{
-     margin-bottom: 25px;
+     margin-bottom:15px;
   }
 
   .p1{
@@ -546,16 +543,14 @@
 }
 .mac{
     position: relative;
-    bottom: 20px;
-    width: 95%;
-    margin: 0 auto;
+    bottom: 10px;
+    width:850px;
+    margin: 1px auto;
     white-space: nowrap;
 }
 .shade123{
     background-image: url('../../../assets/img/Shape 865.png');
-    background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: bottom;
     position: relative;
     top: 1px;
 }
@@ -784,7 +779,8 @@ width: 100%;
     font-weight:400;
 }
 .text{
-margin:20px 0px 0px 50px;
+    margin: 30px 0px 0px 0px;
+    text-align: left;
 }
 .man img{
     width: 100%;
