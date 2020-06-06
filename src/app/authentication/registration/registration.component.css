@@ -5,7 +5,7 @@ body {
   }
 .register{
 	height: 100vh;
-	background-image: url("src/assets/img/login.png");
+	background-image: url("../../../assets/img/Login.png");
     background-repeat: no-repeat;
     background-size: 100%;
     margin:0 auto;
@@ -23,6 +23,7 @@ body {
     outline-style: none;
     font-family:saira, sans-serif;
     font-weight:800;
+    outline:none!important;
 }
 img{
 	width: 150px;
