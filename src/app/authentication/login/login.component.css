@@ -20,6 +20,8 @@ body {
     border: white;
     border-radius: 30px;
     width: 120px;
+    font-size: 14px;
+    outline-style: none;
     font-family: saira, sans-serif;
     font-weight: bold;
     outline:none !important;
@@ -27,8 +29,8 @@ body {
 }
 img{
 	width: 150px;
-    margin-top: 20px;
-    margin-bottom:12px;
+    margin-top: 10px;
+    margin-bottom:15px;
 }
 .box{
     height: 320px;
@@ -54,7 +56,7 @@ img{
     padding: 15px;
     outline-style: none;
     font-family: saira, sans-serif;
-      
+    font-size: 16px;     
 }
 .log{
     width:108px;
@@ -115,5 +117,10 @@ img{
 }
 .email{
     width:85%;
+}
+}
+@media only screen and (min-width: 1440px){
+.free{
+margin-top:10%!important;
 }
 }

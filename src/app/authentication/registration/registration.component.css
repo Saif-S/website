@@ -22,13 +22,13 @@ body {
     font-size: 14px;
     outline-style: none;
     font-family:saira, sans-serif;
-    font-weight:800;
+    font-weight:bold;
     outline:none!important;
 }
 img{
 	width: 150px;
-  margin-top: 20px;
-  margin-bottom:12px;
+  margin-top: 10px;
+  margin-bottom:15px;
 }
 .box{
     height: auto;
@@ -48,13 +48,27 @@ img{
     border-radius: 10px;
 	border:1px solid #fff;
 	width: 75%;
-    height: 25px;
+    height: 35px;
     margin: 10px;
     box-shadow: 1px 2px 5px 2px lightgrey;
     padding: 15px;
-    font-size: 12px;
+    font-size: 14px;
+    font-family:saira, sans-serif;
     outline-style: none;
       
+}
+.entity{
+  border-radius: 10px;
+	border:1px solid #fff;
+  width: 75%;
+  height:38px;
+  margin: 10px;
+  box-shadow: 1px 2px 5px 2px lightgrey;
+  padding: 7px;
+  font-size: 14px;
+    font-family:saira, sans-serif;
+    outline-style: none;
+    color:slategray;
 }
   .chk {
     display: block;
@@ -110,6 +124,8 @@ img{
   /* Show the checkmark when checked */
   .chk input:checked ~ .checkmark:after {
     display: block;
+    left:5px;
+    top:1px;
   }
   
   /* Style the checkmark/indicator */
@@ -161,4 +177,9 @@ img{
       .register{
         background-image: unset;
       }
+  }
+  @media only screen and (min-width: 1440px){
+  .option{
+    width:10%!important;
+  }
   }
