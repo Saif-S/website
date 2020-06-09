@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
   isShow: boolean;
   topPosToStartShowing = 100;
   @HostListener('window:scroll')
+  
   checkScroll() {
    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
@@ -30,5 +31,9 @@ export class HomeComponent implements OnInit {
       left: 0, 
       behavior: 'smooth' 
     });
+    
   }
+  scrollToElement(element): void {
+    element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+}
 }

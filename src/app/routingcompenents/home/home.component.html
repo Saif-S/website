@@ -11,16 +11,16 @@
               <a class="nav-item" routerLink="/" routerLinkActive="active" href="#cloud">Cloud</a>
             </li>
             <li class="">
-              <a class="nav-item" href="#feature">Features</a>
+              <a class="nav-item" href="#feature" (click)="scrollToElement(feature)">Features</a>
             </li>
             <li class="">
-              <a class="nav-item" href="#store">Store</a>
+              <a class="nav-item" href="#store" (click)="scrollToElement(store)">Store</a>
             </li>
             <li class="">
-              <a class="nav-item" href="#id">Skyber ID</a>
+              <a class="nav-item" href="#id" (click)="scrollToElement(id)">Skyber ID</a>
             </li>
             <li class="">
-              <a class="nav-item" href="#Testimonials">Testimonials</a>
+              <a class="nav-item" href="#Testimonials" (click)="scrollToElement(Testimonials)">Testimonials</a>
             </li>
           </ul>
         </div>
@@ -35,7 +35,7 @@
     <div class="col-md-6" data-aos="fade-up" data-aos-duration="1800">
       <div class="heading">
         <h3 class="abc">The future of <span class="buss typer" id="main" data-words="business, automation,banking, you."
-            data-delay="100" data-loop="1" data-deleteDelay="1000"></span>
+            data-delay="100" data-loop="" data-deleteDelay="1000"></span>
           <span class="cursor" data-owner="main"></span></h3>
         <p class="simple">Simplify your procurements to payments processes<br> using our  unified new commerce platform.</p>
         <div class="input">
@@ -122,7 +122,7 @@
       <img class="react" src=" ../../../assets/img/Rectangle.png">
     </div>
     <div class="col-md-12">
-      <div class="feature" id="feature">
+      <div class="feature" #feature>
         <h2>Features</h2>
         <hr class="hr">
       </div>
@@ -221,7 +221,7 @@
       </div>
     </div>
   </div>
-  <div class="row" id="store">
+  <div class="row" #store>
     <div class="col-md-12 section2">
       <h2>store.</h2>
       <p class="unique">Set unique price levels for your customer network using our online marketplace. </p>
@@ -251,7 +251,7 @@
   </div>
 </div>
 </div>
-  <div class="row" id="id">
+  <div class="row" #id>
     <div class="col-md-12 text-center">
       <h2 class="call">Skyber ID</h2>
       <hr class="hr">
@@ -284,7 +284,7 @@
   </div>
   
   <div class="row">
-    <div class="companies" id="Testimonials">
+    <div class="companies" #Testimonials>
     <div class="col-md-12">
       <h2>Companies who love us!</h2>
       <hr class="hr2">
@@ -374,33 +374,31 @@
             <ul>
               <li>Home</li>
               <li>About</li>
-              <li>Demo</li>
-              <li>Blog</li>
+              <li>Jobs</li>
+              <li>Industries</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 text-center dot">
+          <div class="list">
+            <h3 class="company">Products</h3>
+            <ul>
+              <li>Cloud</li>
+              <li>Store</li>
+              <li>Enterprise</li>
+              <li>Developer</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 text-center dot">
+          <div class="list">
+            <h3 class="company">Connect</h3>
+            <ul>
+              <li>Support</li>
+              <li>Partner</li>
               <li>Privacy</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3 text-center dot">
-          <div class="list">
-            <h3 class="company">Company</h3>
-            <ul>
-              <li>Skyber ID</li>
-              <li>Partner</li>
-              <li>Jobs</li>
               <li>Contact Us</li>
-              <li>More</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3 text-center dot">
-          <div class="list">
-            <h3 class="company">Company</h3>
-            <ul>
-              <li>Skyber ID</li>
-              <li>Partner</li>
-              <li>Jobs</li>
-              <li>Contact Us</li>
-              <li>More</li>
+
             </ul>
           </div>
         </div>

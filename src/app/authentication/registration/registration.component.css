@@ -26,9 +26,9 @@ body {
     outline:none!important;
 }
 img{
-	width: 150px;
-  margin-top: 10px;
-  margin-bottom:15px;
+	width: 135px;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 .box{
     height: auto;
@@ -82,6 +82,7 @@ img{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    font-family:saira, sans-serif;
   }
   /* Hide the browser's default checkbox */
 .chk input {
@@ -102,6 +103,7 @@ img{
     background-color: #fff;
     border:2px solid black;
     border-radius: 5px;
+
   }
   
   /* On mouse-over, add a grey background color */
@@ -152,6 +154,7 @@ img{
     font-size: 14px;
     outline-style: none;
     margin-left: 15px;
+    font-family:saira, sans-serif;
   }
   @media only screen and (max-width:500px){
       .box{

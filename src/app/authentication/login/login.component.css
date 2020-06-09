@@ -27,13 +27,13 @@ body {
     outline:none !important;
 
 }
-img{
-	width: 150px;
+.img1{
+	width: 135px;
     margin-top: 10px;
-    margin-bottom:15px;
+    margin-left: 15px;
 }
 .box{
-    height: 320px;
+    height: 295px;
 	width: 45%;
     background:#fff;
     border-radius:100px;
@@ -45,6 +45,7 @@ img{
 }
 .logo{
     width: 22%;
+    margin: 20px 0px 0px 0px;
 }
 .email{
     border-radius: 10px;
@@ -56,7 +57,7 @@ img{
     padding: 15px;
     outline-style: none;
     font-family: saira, sans-serif;
-    font-size: 16px;     
+    font-size: 14px;     
 }
 .log{
     width:108px;
@@ -73,8 +74,8 @@ img{
 .cloud{
     margin-top: 5px;
     white-space: nowrap;
-    font-size: 14px;
-    
+    font-size: 13px;
+    font-family: saira,sans-serif;   
 }
 .click{
     color:#FD9E00;
@@ -91,6 +92,7 @@ img{
     font-size: 46px;
     margin:30px 15px 0px 0px;
     font-weight: 300;
+    font-family:saira,sans-serif;
 }
 @media only screen and (max-width:500px){
     .box{
