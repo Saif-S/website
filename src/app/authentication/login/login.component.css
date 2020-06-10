@@ -88,11 +88,48 @@ body {
 }
 .free{
     color:white;
-    float: right;
+    position: absolute;
+    bottom: 2%;
+    right: 15px;
     font-size: 46px;
-    margin:30px 15px 0px 0px;
     font-weight: 300;
     font-family:saira,sans-serif;
+}
+@media  screen and (max-width: 1920px){
+    .free{
+    right: 15px;
+    bottom:20%;
+    font-size:70px;
+}
+    }
+
+@media only screen and (max-width: 1440px){
+.free{
+    bottom: 28%;
+    right: 20px;
+    font-size: 60px;
+}
+}
+@media only screen and (max-width: 1370px){
+    .free{
+        bottom: 3%;
+        right: 15px;
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width: 1280px){
+    .free{
+        bottom: 35%;
+        right: 15px;
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .free{
+        bottom: 24%;
+        right: 15px;
+        font-size: 44px;
+    }
 }
 @media only screen and (max-width:500px){
     .box{
@@ -119,10 +156,5 @@ body {
 }
 .email{
     width:85%;
-}
-}
-@media only screen and (min-width: 1440px){
-.free{
-margin-top:10%!important;
 }
 }

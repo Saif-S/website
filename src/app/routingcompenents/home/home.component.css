@@ -776,10 +776,11 @@ width: 100%;
     text-align: left;
 }
 .man img{
-    width: 100%;
+    width: 755px;
     margin-left: 15px;
     position: relative;
-    bottom:128px;
+    height: 720px;
+    bottom: 120px;
 }
 .companies{
     background-image: url('../../../assets/img/Rocket Background.png');
@@ -842,7 +843,7 @@ width: 100%;
     border-radius:15px;
     border:1px solid #FD9E00;
     width: 85%;
-    height: 45px;
+    height: 40px;
     outline-style: none;
     padding:5px;
     font-size: 14px;
@@ -863,8 +864,8 @@ width: 100%;
 
 .started{
   background-color:#FD9E00;
-  width: 27%;
-  height: 50px;
+  width: 28%;
+  height: 35px;
   color: #fff;
   font-weight: 600;
   border: 1px solid #FD9E00;
@@ -900,7 +901,7 @@ font-weight:bold;
     float: right;
     width:40px;
     position: fixed;
-  bottom: 65%;
+  bottom: 61%!important;
   right: 30px;
   z-index: 99;
   outline: none;
@@ -967,7 +968,9 @@ width:150px;
 margin: 0px 15px;
 }
 @media  screen and (max-width: 1920px) {
-   
+   .btn{
+       font-size:14px;
+   }
 .button2{
     width:18%; 
 }
@@ -1007,7 +1010,7 @@ margin: 0px 15px;
     margin: 30px 0px 10px 34%;
 }
 .arrow{
-    bottom:35%;
+    bottom:35%!important;
 }
 .box-flignite{
     width: 370px;
@@ -1017,14 +1020,23 @@ margin: 0px 15px;
     width: 600px;
     height: 285px;
 }
+.group{
+    width:95%;
+}
   }
 @media only screen and (max-width: 1440px){
-
+    .btn{
+        font-size:14px;
+    }
     .button2{
         width:18%;
     }
+    .section{
+        background-position-x:-85px!important;
+        bottom:5px;
+    }
 .arrow{
-    bottom:45%;
+    bottom:45%!important;
 }
 .all-images{
     height:85vh;
@@ -1053,7 +1065,7 @@ margin: 0px 15px;
     min-height: 1225px;
 }
 .enter{
-   margin:25px 10px 10px 6px;
+   margin:25px 10px 10px 30px;
 }
 .box-flignite{
     width: 271px;
@@ -1063,11 +1075,20 @@ margin: 0px 15px;
     width: 500px;
     height: 280px;
 }
+.group{
+    width:95%;
+}
 }
 @media only screen and (max-width: 1370px){
-
+    .btn{
+        font-size:14px;
+    }
+    .section{
+        background-position-x:-85px!important;
+        bottom:5px;
+    }
  .button2{
-   width:18%!important;
+   width:18%;
  }
     .cop{
     height:470px;
@@ -1083,6 +1104,118 @@ margin: 0px 15px;
     min-height: 1165px;
 }
 .arrow{
-    bottom:61%;
+    bottom:61%!important;
 }
+.mac{
+    width:800px;
+    }
+    .group{
+        width:95%;
+    }
+    .made{
+        width: 500px;
+        height: 280px;
+    }
+    .man img{
+        width: 725px;
+        left: 7%;
+        height: 710px;
+        bottom: 130px;
+    }
+    .enter{
+        margin: 25px 0px 10px 10px;
+}
+}
+@media only screen and (max-width: 1280px){
+    .btn{
+        font-size:14px;
+    }
+    .section{
+        background-position-x:-85px!important;
+        bottom:5px;
+    }
+    .all-images{
+        height:88vh;
+    }
+    .cop{
+    height: 780px;
+    width: 690px;
+    }
+    .back-img{
+        top: 35px;
+        height: 800px;
+    }
+.man img{
+    width: 768px;
+    left: 0%;
+    bottom: 145px;
+    height: 733px;
+}
+.companies{
+    min-height: 1090px;
+}
+.arrow{
+    bottom:42%!important;
+}
+.mac{
+    width:800px;
+    }
+    .group{
+        width:95%;
+    }
+    .made{
+        width: 500px;
+        height: 280px;
+    }
+  .enter{
+        margin: 25px 0px 10px 0px;
+}
+}
+@media only screen and (max-width: 1080px){
+    .btn{
+        font-size:13px;
+    }
+.button2{
+    width:22%;
+    bottom: 0px;
+}
+.cop{
+    
+    height: 580px;
+    width: 450px;
+}
+.all-images{
+    height:85vh;
+}
+.back-img{
+    top: 35px;
+    height: 600px;
+}
+.mac{
+    width:660px;
+    }
+    .group{
+        width:85%;
+    }
+    .man img{
+    width: 700px;
+    left: 0%;
+    bottom: 145px;
+    height: 745px;
+    }
+    .made{
+        width: 370px;
+        height: 215px;
+        margin-top: 10px;
+    }
+    .arrow{
+        bottom:75%!important;
+    }
+    .companies{
+        min-height: 950px;
+    }
+   .enter{
+     margin:25px 0px 10px 0px;
+     font-size: 14px;
+   } 
 }
