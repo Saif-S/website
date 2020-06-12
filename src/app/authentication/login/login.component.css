@@ -7,7 +7,7 @@ body {
 	height: 100vh;
 	background-image: url("../../../assets/img/login.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     margin:0 auto;
 }
 .regi{
@@ -41,7 +41,7 @@ body {
     box-shadow: 0px 0px 4px 0px #888888;
 	text-align: center;
 	align-items: center;
-	margin: 5% auto 80px auto;
+	margin: 12% auto 80px auto;
 }
 .logo{
     width: 22%;
@@ -98,16 +98,27 @@ body {
 @media  screen and (max-width: 1920px){
     .free{
     right: 15px;
-    bottom:20%;
+    bottom:2%;
     font-size:70px;
+}
+.login{
+    background-size: 100%;
+}
+.box{
+    height: 310px;
+    width: 35%;
 }
     }
 
 @media only screen and (max-width: 1440px){
 .free{
-    bottom: 28%;
+    bottom: 20px;
     right: 20px;
     font-size: 60px;
+}
+.box{
+    height: 295px;
+	width: 45%;
 }
 }
 @media only screen and (max-width: 1370px){
@@ -116,6 +127,10 @@ body {
         right: 15px;
         font-size: 50px;
     }
+    .box{
+        height: 295px;
+        width: 45%;
+    }
 }
 @media only screen and (max-width: 1280px){
     .free{
@@ -123,12 +138,20 @@ body {
         right: 15px;
         font-size: 50px;
     }
+    .box{
+        height: 295px;
+        width: 45%;
+    }
 }
 @media only screen and (max-width: 1080px){
     .free{
         bottom: 24%;
         right: 15px;
         font-size: 44px;
+    }
+    .box{
+        height: 295px;
+        width: 45%;
     }
 }
 @media only screen and (max-width:500px){

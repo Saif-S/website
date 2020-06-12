@@ -901,7 +901,7 @@ font-weight:bold;
     float: right;
     width:40px;
     position: fixed;
-  bottom: 61%!important;
+  bottom: 61%;
   right: 30px;
   z-index: 99;
   outline: none;
@@ -972,7 +972,8 @@ margin: 0px 15px;
        font-size:14px;
    }
 .button2{
-    width:18%; 
+    width:18%;
+ 
 }
     .section{
         background-position-x:-85px!important;
@@ -1002,6 +1003,7 @@ margin: 0px 15px;
     width: 755px;
     bottom:125px;
     left:31%;
+    height:700px;
 }
 .companies{
     min-height: 1625px;
@@ -1010,7 +1012,7 @@ margin: 0px 15px;
     margin: 30px 0px 10px 34%;
 }
 .arrow{
-    bottom:35%!important;
+    bottom:35%;
 }
 .box-flignite{
     width: 370px;
@@ -1036,30 +1038,32 @@ margin: 0px 15px;
         bottom:5px;
     }
 .arrow{
-    bottom:45%!important;
+    bottom:45%;
 }
 .all-images{
     height:85vh;
 }
 .cop{
-    height:670px;
+    height:600px;
 }
 .back-img{
-    top: 17px;
-    height: 670px;
+    top: 35px;
+    height: 630px;
 }
 .simple{
     font-size: 20px;
 }
 .abc{
-    font-size:56px;
+    font-size:60px;
 }
 .mac{
     width:800px;
     }
 .man img{
-    width:755px;
-    left:7%;
+    width: 710px;
+    left: 13%;
+    bottom: 126px;
+    height: 705px;
 }
 .companies{
     min-height: 1225px;
@@ -1087,15 +1091,19 @@ margin: 0px 15px;
         background-position-x:-85px!important;
         bottom:5px;
     }
+    .abc{
+        font-size: 60px;
+    }
  .button2{
    width:18%;
  }
     .cop{
     height:470px;
+    width:630px;
 }    
 .back-img{
-    top: 17px;
-    height: 500px;
+    top: 35px;
+    height: 480px;
 }
 .all-images{
     height:81vh;
@@ -1104,7 +1112,7 @@ margin: 0px 15px;
     min-height: 1165px;
 }
 .arrow{
-    bottom:61%!important;
+    bottom:61%;
 }
 .mac{
     width:800px;
@@ -1119,8 +1127,8 @@ margin: 0px 15px;
     .man img{
         width: 725px;
         left: 7%;
-        height: 710px;
-        bottom: 130px;
+        height: 705px;
+        bottom: 127px;
     }
     .enter{
         margin: 25px 0px 10px 10px;
@@ -1138,12 +1146,12 @@ margin: 0px 15px;
         height:88vh;
     }
     .cop{
-    height: 780px;
+    height: 730px;
     width: 690px;
     }
     .back-img{
         top: 35px;
-        height: 800px;
+        height: 760px;
     }
 .man img{
     width: 768px;
@@ -1155,7 +1163,7 @@ margin: 0px 15px;
     min-height: 1090px;
 }
 .arrow{
-    bottom:42%!important;
+    bottom:42%;
 }
 .mac{
     width:800px;
@@ -1181,15 +1189,15 @@ margin: 0px 15px;
 }
 .cop{
     
-    height: 580px;
-    width: 450px;
+    height: 500px;
+    width: 500px;
 }
 .all-images{
     height:85vh;
 }
 .back-img{
-    top: 35px;
-    height: 600px;
+    top: 30px;
+    height: 510px;
 }
 .mac{
     width:660px;
@@ -1209,7 +1217,7 @@ margin: 0px 15px;
         margin-top: 10px;
     }
     .arrow{
-        bottom:75%!important;
+        bottom:75%;
     }
     .companies{
         min-height: 950px;
