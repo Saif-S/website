@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <div class="header">
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-3">
         <a [routerLink]="['/cloud']"><img class="img1" src="assets/img/logo2.png"></a>
       </div>
@@ -29,7 +29,38 @@
         <button class="button" [routerLink]="['/login']">Login</button>
         <button class="btn" [routerLink]="['/registration']">Get Started</button>
       </div>
-    </div>
+    </div> -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" [routerLink]="['/cloud']"><img class="img1" src="assets/img/logo2.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon custom-toggler"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="menus">
+          <ul class="navbar-nav sky-head">
+            <li class="">
+              <a class="nav-item" routerLink="/" routerLinkActive="active" href="#cloud">Cloud</a>
+            </li>
+            <li class="">
+              <a class="nav-item" href="#feature" (click)="scrollToElement(feature)">Features</a>
+            </li>
+            <li class="">
+              <a class="nav-item" href="#store" (click)="scrollToElement(store)">Store</a>
+            </li>
+            <li class="">
+              <a class="nav-item" href="#id" (click)="scrollToElement(id)">Skyber ID</a>
+            </li>
+            <li class="">
+              <a class="nav-item" href="#Testimonials" (click)="scrollToElement(Testimonials)">Testimonials</a>
+            </li>
+          </ul>
+        </div>
+        <div class="login">
+          <button class="button" [routerLink]="['/login']">Login</button>
+          <button class="btn" [routerLink]="['/registration']">Get Started</button>
+        </div>
+      </div>  
+    </nav>
   </div>
   <div class="row">
     <div class="col-md-6" data-aos="fade-up" data-aos-duration="1800">
@@ -64,37 +95,37 @@
         <p>A simple end-to-end integrated solution to put your business on autopilot.</p>
 
         <div class="row adjust">
-          <div class="col-md-2 col-sm-12 col-xs-12 text-center">
+          <div class="col-md-2 col-sm-12 col-xs-12 col-6 text-center">
             <div class="box">
               <img class="image" src="assets/img/Image 3.png">
               <p>Sales</p>
             </div>
           </div>
-          <div class="col-md-2 col-sm-12 col-xs-12 text-center">
+          <div class="col-md-2 col-sm-12 col-xs-12 col-6 text-center">
             <div class="box">
               <img class="image" src="assets/img/Image 4.png">
               <p>CRM</p>
             </div>
           </div>
-          <div class="col-md-2 col-sm-12 col-xs-12 text-center">
+          <div class="col-md-2 col-sm-12 col-xs-12 col-6 text-center">
             <div class="box">
               <img class="image" src="assets/img/Image5.png">
               <p>Logistics</p>
             </div>
           </div>
-          <div class="col-md-2 col-sm-12 col-xs-12 text-center">
+          <div class="col-md-2 col-sm-12 col-xs-12 col-6 text-center">
             <div class="box">
               <img class="image" src="assets/img/Image 6.png">
               <p>Banking</p>
             </div>
           </div>
-          <div class="col-md-2 col-sm-12 col-xs-12 text-center">
+          <div class="col-md-2 col-sm-12 col-xs-12 col-6 text-center">
             <div class="box">
               <img class="image" src="assets/img/Image 7.png">
               <p>After Sales</p>
             </div>
           </div>
-          <div class="col-md-2 col-sm-12 col-xs-12 text-center">
+          <div class="col-md-2 col-sm-12 col-xs-12 col-6 text-center">
             <div class="box">
               <img class="image" src="assets/img/Image 8.png">
               <p>Taxation</p>
@@ -128,14 +159,14 @@
       </div>
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-5 text-right" data-aos="fade-up" data-aos-duration="1800">
+        <div class="col-md-5 col-12 text-right" data-aos="fade-up" data-aos-duration="1800">
           <div class="way">
             <h3 class="banky"><span class="hr1">Bank</span> the new way</h3>
             <p class="easy">Easily integrate your bank accounts and make vendor payments, utility payments or salaries.
               Easy multi-level hierarchy approvals all through one integrated system.</p>
           </div>
         </div>
-        <div class="col-md-5 text-center" data-aos="fade-up"data-aos-duration="1800">
+        <div class="col-md-5 col-12 text-center" data-aos="fade-up"data-aos-duration="1800">
           <img class="freedom" src="../../../assets/img/Financial freedom@2x.png">
         </div>
         <div class="col-md-1">
@@ -148,11 +179,11 @@
   </div>
   <div class="row">
     <div class="col-md-1"></div>
-    <div class="col-md-5 text-center" data-aos="fade-up" data-aos-duration="1800">
+    <div class="col-md-5 text-center" id="second" data-aos="fade-up" data-aos-duration="1800">
       <img class="freedom" src="../../../assets/img/Startup@2x.png">
     </div>
 
-    <div class="col-md-5 text-center" data-aos="fade-up" data-aos-duration="1800">
+    <div class="col-md-5 text-center" id="first" data-aos="fade-up" data-aos-duration="1800">
       <div class="way">
         <h3 class="banky"><span class="hr1">Manage</span> your sales pipeline</h3>
         <p class="easy">From enquiry to invoicing and everything in between, streamline and syncronize your sales
@@ -189,10 +220,10 @@
     <div class="col-md-1">
      
     </div>
-    <div class="col-md-5 text-center" data-aos="fade-up" data-aos-duration="1800">
+    <div class="col-md-5 text-center" id="second" data-aos="fade-up" data-aos-duration="1800">
       <img class="freedom" src="../../../assets/img/Stats with results@2x.png">
     </div>
-    <div class="col-md-5 text-center" data-aos="fade-up" data-aos-duration="1800">
+    <div class="col-md-5 text-center" id="first" data-aos="fade-up" data-aos-duration="1800">
       <div class="way">
         <h3 class="banky"><span class="hr1">Keep</span> a check on warranties</h3>
         <p class="easy">Track your product warranties and ensure easy replacement and returns of products.</p>
@@ -228,7 +259,7 @@
     
   
   <div class="row">
-    <div class="col-md-3 zero" data-aos="fade-up" data-aos-duration="1800">
+    <div class="col-md-3 zero"  id="third" data-aos="fade-up" data-aos-duration="1800">
       <div class="abcde">
         <h4>Get Online</h4>
         <p class="pera">List your products on Skyber’s Store and make your sale processes seamless. Get order details right on your
@@ -237,10 +268,10 @@
         <p class="pera">Zero listing charges. Zero transaction charges. You go!</p>
       </div>
     </div>
-    <div class="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1800">
+    <div class="col-md-6 text-center" id="forth" data-aos="fade-up" data-aos-duration="1800">
       <img class="group" src="../../../assets/img/Group 35699.png">
     </div>
-    <div class="col-md-3 level" data-aos="fade-up" data-aos-duration="1800">
+    <div class="col-md-3 level"  id="third" data-aos="fade-up" data-aos-duration="1800">
       <div class="audi">
         <h4>Unique Price Levels</h4>
         <p class="pera">Set unique price levels for consumers according to their category. They see the price you show them.</p>
@@ -292,13 +323,13 @@
       <div class="row brand">
         <div class="col-md-2"></div>
         <div class="col-md-8" style="display: flex;padding: 0px;">
-          <div class="box-flignite">
+          <div class="box-flignite col-xs-3">
             <img src="../../../assets/img/Flignite-Logo-1536x267.png" alt="">
           </div>
-          <div class="box-flignite">
+          <div class="box-flignite col-xs-3">
             <img src="../../../assets/img/Flignite-Logo-1536x267.png" alt="">
           </div>
-          <div class="box-flignite">
+          <div class="box-flignite col-xs-3">
             <img src="../../../assets/img/Flignite-Logo-1536x267.png" alt="">
           </div>
         </div>
@@ -307,13 +338,13 @@
       <div class="row brand">
         <div class="col-md-2"></div>
         <div class="col-md-8" style="display: flex;padding: 0px;">
-          <div class="box-flignite">
+          <div class="box-flignite col-xs-3">
             <img src="../../../assets/img/logo-01.png" alt="">
           </div>
-          <div class="box-flignite">
+          <div class="box-flignite col-xs-3">
             <img src="../../../assets/img/logo-01.png" alt="">
           </div>
-          <div class="box-flignite">
+          <div class="box-flignite col-xs-3">
             <img src="../../../assets/img/logo-01.png" alt="">
           </div>
         </div>
@@ -323,13 +354,13 @@
       <div class="row brand">
         <div class="col-md-2"></div>
         <div class="col-md-8" style="display: flex;padding: 0px;">
-          <div class="box-flignite">
+          <div class="box-flignite col-xs-3">
             <img src="../../../assets/img/Screenshot 2020-03-02 at 20.42.46.png" alt="">
           </div>
-          <div class="box-flignite">
+          <div class="box-flignite col-xs-3">
             <img src="../../../assets/img/Screenshot 2020-03-02 at 20.42.46.png" alt="">
           </div>
-          <div class="box-flignite">
+          <div class="box-flignite col-xs-3">
             <img src="../../../assets/img/Screenshot 2020-03-02 at 20.42.46.png" alt="">
           </div>
         </div>
@@ -367,7 +398,7 @@
           we would love if you get in touch with us. Click here if you have any feedbacks or want to partner with us to
           build cool new things. Much love.</p>
       </div>
-      <div class="col-md-6 footer-links">
+      <div class="col-md-6 footer-links" id="mb">
         <div class="col-md-3 text-center dot">
           <div class="list">
             <h3 class="company">Company</h3>
@@ -403,7 +434,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3" id="cid">
         <div class="address">
           <p class="enter">Skyber Enterprises Private Limited</p>
           <address class="add">
@@ -414,7 +445,7 @@
           <div class="fas">
             <i class="fa fa-envelope-o"></i> <span class="info">info@skyber.cloud</span>
           </div>
-          <div class="like">
+          <div class="like" id="up">
             <p>Like what we do? Stay updated!</p>
           </div>
           <div class="foot-input">
@@ -448,4 +479,4 @@
       </div>
     </div>
   </div>
-</div>
+

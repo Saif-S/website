@@ -50,37 +50,43 @@
         }
     }
 
-
-
-
-
   .img1{
       width: 135px;
-      margin-top: 10px;
-      margin-left: 15px;
+      margin-top: 5px;
   }
   .menus{
-    margin: 20px 30px 0px 30px;
     white-space: nowrap;
   }	
   .sky-head{
-    display: flex;
-    justify-content: space-evenly;
     list-style: none;
-    padding : 0px;
+    padding :0;
+    margin:0;
+    text-align: center;
     cursor: pointer;
+    position: absolute;
+    top:20%;
+    left:28%;
   }
   .sky-head a{
-      padding: 0px!important;
+      padding: 15px!important;
       color: #000!important;
       text-decoration: none;
       background-color: transparent;
       font-size: 16px;
       font-family: saira, sans-serif;
-      padding: 0 15px;
+      display:inline-block;
+      padding:10px;
       text-decoration: none !important;
       font-weight: 800;
+      margin-left:20px;
   }
+  .navbar-toggler{
+    border:none;
+  }
+
+  .sky-head li{
+    display:inline;
+}
   .login{
       display: flex;
       align-items: center;
@@ -105,7 +111,7 @@
   .button{
       background-color: #FD9E00;
       color:white;
-      width:30%;
+      width:115px;
       border-radius: 30px;
       border:#FD9E00;
       height:30px;
@@ -117,7 +123,7 @@
   .btn{
     background-color: #FD9E00;
     color:white;
-    width:40%;
+    width:115px;
     border-radius: 30px;
     border:#FD9E00;
     height: 30px;
@@ -525,7 +531,7 @@
     margin:5px 90px;
 }
 .adjust p{
-    font-size: 14px;
+    font-size: 15px;
     white-space: nowrap;
     font-family: Saira,sans-serif;
     font-weight:700;
@@ -545,7 +551,7 @@
     background-image: url('../../../assets/img/Shape 865.png');
     background-repeat: no-repeat;
     position: relative;
-    top: 2px;
+    top: 3px;
 }
 .shade345 img{
    
@@ -967,7 +973,7 @@ font-weight:bold;
 width:150px;
 margin: 0px 15px;
 }
-@media  screen and (max-width: 1920px) {
+@media only screen and (max-width: 1920px) {
    .btn{
        font-size:14px;
    }
@@ -1025,7 +1031,26 @@ margin: 0px 15px;
 .group{
     width:95%;
 }
+.email{
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #FD9E00;
+    width: 40%;
+    height: 40px;
+    outline-style: none;
+}
+.adjust{
+    margin:5px 90px;
   }
+  .box:hover{
+    transform:scale(1.2);
+}
+.box{
+    margin-top: 10px;
+}
+.freedom{
+    margin-top:0px;
+}
+}
 @media only screen and (max-width: 1440px){
     .btn{
         font-size:14px;
@@ -1082,6 +1107,25 @@ margin: 0px 15px;
 .group{
     width:95%;
 }
+.email{
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #FD9E00;
+    width: 40%;
+    height: 40px;
+    outline-style: none;
+}
+.adjust{
+    margin:5px 90px;
+}
+.box:hover{
+    transform:scale(1.2);
+}
+.box{
+    margin-top: 10px;
+}
+.freedom{
+    margin-top:0px;
+}
 }
 @media only screen and (max-width: 1370px){
     .btn{
@@ -1089,7 +1133,7 @@ margin: 0px 15px;
     }
     .section{
         background-position-x:-85px!important;
-        bottom:5px;
+        bottom:30px;
     }
     .abc{
         font-size: 60px;
@@ -1132,6 +1176,25 @@ margin: 0px 15px;
     }
     .enter{
         margin: 25px 0px 10px 10px;
+}
+.email{
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #FD9E00;
+    width: 40%;
+    height: 40px;
+    outline-style: none;
+}
+.adjust{
+    margin:5px 90px;
+}
+.box:hover{
+    transform:scale(1.2);
+}
+.box{
+    margin-top: 10px;
+}
+.freedom{
+    margin-top:0px;
 }
 }
 @media only screen and (max-width: 1280px){
@@ -1177,6 +1240,25 @@ margin: 0px 15px;
     }
   .enter{
         margin: 25px 0px 10px 0px;
+}
+.email{
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #FD9E00;
+    width: 40%;
+    height: 40px;
+    outline-style: none;
+}
+.adjust{
+    margin:5px 90px;
+}
+.box:hover{
+    transform:scale(1.2);
+}
+.box{
+    margin-top: 10px;
+}
+.freedom{
+    margin-top:0px;
 }
 }
 @media only screen and (max-width: 1080px){
@@ -1226,4 +1308,514 @@ margin: 0px 15px;
      margin:25px 0px 10px 0px;
      font-size: 14px;
    } 
+   .email{
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #FD9E00;
+    width: 40%;
+    height: 40px;
+    outline-style: none;
+   }
+   .adjust{
+    margin:5px 90px;
+   }
+   .box{
+    margin-top: 10px;
+   }
+   .freedom{
+    margin-top:0px;
+}
+}
+@media only screen and (max-width:500px){
+.abc{
+    margin-top: 30px;
+    font-size: 35px;
+}
+.simple{
+    font-size: 15px;
+}
+.email{
+    border-radius: 10px;
+    border: 1px solid #FD9E00;
+    width: 80%;
+    height: 50px;
+    outline-style: none;
+    text-align: center;
+    margin-left:25px;
+    font-size:18px;
+}
+.button2{
+    position: relative;
+    margin: 10px;
+    left: 27%;
+    width: 35%;
+    height:45px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.back-img{
+    top:10%;
+    left:35%;
+    height:440px;
+}
+.cop{
+    width:400px;
+    height:430px;
+    top:10%;
+}
+.section{
+    bottom:130px;
+}
+.adjust{
+   margin:20px;
+}
+.box{
+    margin:30px 0px 0px 15px;
+}
+.box:hover{
+    transform:scale(1.2);
+}
+.mac{
+   margin:30px 0px 0px 0px;
+   width:620px;
+}
+.freedom{
+    margin-top:50px;
+}
+.section2{
+background-image: url("../../../assets/img/Path53773.png");
+    background-size: 880px;
+    background-position-x: -70px;
+    background-position-y: -70px;
+    margin-top: 20px;
+}
+.section2 h2{
+    text-align: left;
+    margin:30px 0px 15px 15px;
+    font-size: 46px;
+}
+.unique{
+    text-align: left;
+    font-size: 20px;
+}
+.group{
+}
+.call{
+    font-size: 24px;
+}
+.text h3{
+    text-align: center;
+    font-size: 24px;
+}
+.text p{
+    font-size: 18px;
+}
+.man img{
+    left:-90px;
+    width:580px;
+    height:580px;
+    bottom: 35px;
+}
+.companies{
+background-image:url("../../../assets/img/Rocket bg mobile.png");
+position: relative;
+top:445px;
+min-height:1285px;
+background-position-x:-75px;
+}
+.box-flignite{
+    max-width: 150px;
+    height:120px;
+}
+.box-flignite img{
+    left: 5%;
+    width: 90%;
+}
+.made{
+    width:430px;
+    height:215px;
+    margin:45px 20px 0px 0px;
+    border-radius:70px;
+}
+.made h3{
+    font-size:20px;
+    font-weight:bold;
+}
+.business{
+    font-size:18px;
+}
+.started{
+    font-size: 18px;
+    width: 30%;
+    height: 40px;
+}
+.foot{
+    position: relative;
+    top:375px;
+}
+.enter{
+    font-size:18px;
+    text-align: right;
+}
+.add{
+    font-size: 16px;
+}
+.foot-email{
+    width: 50%;
+    position: relative;
+    left: 35%;
+}
+.foot-button{
+    left:35%;
+}
+.like p{
+    font-size:20px;
+}
+.sky-head{
+text-align: center;
+position: relative;
+left:0px;
+}
+.login{
+    justify-content:center;
+}
+#first{
+    order:1;
+}
+#second{
+    order:2;
+}
+.way{
+    top:0px;
+}
+#third{
+    order:1;
+}
+#forth{
+    order:2;
+}
+.audi{
+    margin-left: 10px;
+}
+#mb{
+    order:3;
+}
+#cid{
+    order:2;
+}
+#up{
+    order:1;
+}
+.add{
+    text-align: left;
+    margin-left: 15px;
+}
+.enter{
+    text-align: left;
+    margin-left: 15px;
+}
+.fas{
+    text-align: left;
+    margin-left: 15px;
+}
+.like p{
+    text-align: center;
+    margin: 20px;
+}
+.foot-input{
+    margin:20px 0px 40px 0px;
+}
+.foot-email{
+    left:20px;
+    width:80%;
+}
+.foot-button{
+    left:20px;
+}
+}
+@media only screen and (max-width: 480px){
+.mac{
+    width:580px;
+}
+.cop{
+    width: 460px;
+    height: 430px;
+    top: 10%;
+}
+.man img{
+    width: 530px;
+    height: 530px;
+}
+.box-flignite{
+    max-width:170px;
+}
+.made{
+    width: 370px;
+    margin:45px 10px 0px 0px;
+}
+.made h3{
+    font-size: 17px;
+}
+.companies{
+    min-height:1300px;
+    background-position-x:-110px;   
+}
+}
+@media only screen and (max-width:420px){
+.cop{
+    width: 400px;
+    height: 360px;
+    top: 10%;
+}
+.abc{
+    font-size:28px;
+}
+.simple{
+    font-size: 14px;
+}
+.button2{
+    width:37%;
+}
+.back-img{
+    height: 360px;
+    top: 10%;
+}
+.mac{
+    width:480px;
+}
+.way{
+ right:20px;   
+}
+.man img{
+    width:470px;
+    max-height:455px;
+    bottom:0px;
+}
+.companies h2{
+    font-size:26px;
+}
+.box-flignite{
+    min-width:90px;
+    height:100px;
+}
+.made{
+    margin: 45px 10px 0px 0px;
+    width: 350px;
+    height: 220px;
+}
+.started{
+    width:32%;
+}
+.box{
+    margin:30px 0px 0px 0px;
+}
+.react img{
+    width:40px;
+}
+.rectangle img{
+    width:40px;
+}
+.rectangle3 img{
+    width: 40px;
+}
+.rectangle2 img{
+    width: 40px;
+}
+.abcd{
+    width:40px;
+}
+.unique{
+    font-size: 16px;
+}
+.text h3{
+    font-size:20px;
+}
+.text p{
+    text-align: center;
+}
+}
+@media only screen and (max-width:360px){
+    .cop{
+        top:10%;
+        height:280px;
+    }
+.back-img{
+    height: 280px;
+    top: 60px;
+    left: 40%;
+}
+.unique{
+    font-size: 16px;
+}
+.adjust{
+   margin:20px 0px 0px 0px;
+}
+.mac{
+    width: 445px;
+}
+.man img{
+    width:470px;
+    max-height: 430px;
+    bottom:0px;
+}
+.box-flignite{
+    min-width:85px;
+    height:85px;
+}
+.made{
+    margin:45px 0px 0px 0px;
+    width: 330px;
+    height:210px;
+}
+.made h3{
+    font-size: 16px;
+}
+.started{
+    width:35%;
+}
+.companies{
+    min-height: 1160px;
+}
+.like p{
+    font-size: 18px;
+}
+.banky{
+    font-size:20px;
+}
+.text h3{
+    font-size: 20px;
+}
+.text p{
+    font-size: 18px;
+}
+.react img{
+    width:40px;
+}
+.rectangle img{
+    width:40px;
+}
+.rectangle3 img{
+    width: 40px;
+}
+.rectangle2 img{
+    width: 40px;
+}
+.abcd{
+    width:40px;
+}
+}
+@media only screen and (max-width:320px){
+.abc{
+    font-size: 24px;
+}
+.email{
+    height:40px;
+}
+.simple{
+    font-size: 12px;
+}
+.button2{
+    width: 43%;
+    height: 40px;
+    left:24%;
+}
+.cop{
+    height:250px;
+    top:12%;
+}
+.back-img{
+    height: 260px;
+    top: 55px;
+    left: 45%;
+}
+.section p{
+    font-size: 13px;
+}
+.easy{
+    font-size: 13px;
+}
+.banky{
+    font-size: 16px;
+}
+.unique{
+    font-size: 14px;
+}
+.zero p{
+    font-size: 14px;
+}
+.text p{
+    font-size: 14px;
+    text-align: center;
+}
+.text h3{
+    font-size: 16px;
+}
+.companies{
+    top:290px;
+}
+.adjust{
+    margin:15px 0px 0px 0px;
+}
+.box{
+    margin:30px 0px 0px 0px;
+}
+.mac{
+    width:400px;
+}
+.man img{
+    width: 420px;
+    max-height: 420px;
+}
+.box-flignite{
+    min-width:70px;
+    height:70px;
+}
+.made{
+    margin: 30px 0px 0px 0px;
+    width: 295px;
+    height: 200px;
+}
+.made h3{
+    font-size: 14px;
+}
+.started{
+    width: 40%;
+    font-size: 16px;
+}
+.business{
+    margin: 15px 25px;
+    height:35px;
+}
+.like p{
+    font-size: 16px;
+}
+.enter{
+    font-size: 16px;
+}
+.company{
+    font-size: 16px;
+}
+.copyright{
+    font-size: 14px;
+}
+.section{
+    bottom:90px;
+}
+.react img{
+    width:40px;
+}
+.rectangle img{
+    width:40px;
+}
+.rectangle3 img{
+    width: 40px;
+}
+.rectangle2 img{
+    width: 40px;
+}
+.abcd{
+    width:40px;
+}
+.section2 h2{
+    font-size: 36px;
+}
 }
