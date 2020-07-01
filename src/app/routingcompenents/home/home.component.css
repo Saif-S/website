@@ -68,7 +68,7 @@
     left:28%;
   }
   .sky-head a{
-      padding: 15px!important;
+      padding: 15px 15px 0px 0px!important;
       color: #000!important;
       text-decoration: none;
       background-color: transparent;
@@ -79,6 +79,8 @@
       text-decoration: none !important;
       font-weight: 800;
       margin-left:20px;
+      margin-right:20px;
+      outline: none;
   }
   .navbar-toggler{
     border:none;
@@ -95,8 +97,7 @@
   }
   .active:hover{
       color: #FD9E00!important;
-      border-bottom: 2px solid #FD9E00;
-    
+      border-bottom: 1px solid #FD9E00;
   }
   .abc{
       font-size:55px;
@@ -1329,9 +1330,11 @@ margin: 0px 15px;
 .abc{
     margin-top: 30px;
     font-size: 35px;
+    text-align: center;
 }
 .simple{
     font-size: 15px;
+    text-align: center;
 }
 .email{
     border-radius: 10px;
@@ -1531,6 +1534,9 @@ left:0px;
 .foot-button{
     left:20px;
 }
+.email{
+    text-align: left;
+}
 }
 @media only screen and (max-width: 480px){
 .mac{
@@ -1559,6 +1565,10 @@ left:0px;
     min-height:1300px;
     background-position-x:-110px;   
 }
+.email{
+    text-align: center;
+    font-size: 16px;
+}
 }
 @media only screen and (max-width:420px){
 .cop{
@@ -1568,9 +1578,11 @@ left:0px;
 }
 .abc{
     font-size:28px;
+    text-align: center;
 }
 .simple{
     font-size: 14px;
+    text-align: center;
 }
 .button2{
     width:37%;
@@ -1631,6 +1643,13 @@ left:0px;
 }
 .text p{
     text-align: center;
+}
+.email{
+    text-align: center;
+    font-size: 16px;
+}
+.button2{
+    font-size:15px;
 }
 }
 @media only screen and (max-width:360px){
@@ -1702,21 +1721,32 @@ left:0px;
 .abcd{
     width:40px;
 }
+.email{
+    text-align: center;
+}
+.button2{
+    font-size: 16px;
+}
 }
 @media only screen and (max-width:320px){
 .abc{
     font-size: 24px;
+    text-align: center;
 }
 .email{
     height:40px;
+    font-size: 15px;
+    text-align: center;
 }
 .simple{
     font-size: 12px;
+    text-align: center;
 }
 .button2{
     width: 43%;
     height: 40px;
     left:24%;
+    font-size: 16px;
 }
 .cop{
     height:250px;

@@ -1,0 +1,102 @@
+.logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.config{
+    font-weight: 500;
+    font-family:saira,sans-serif;
+    text-align: center;
+    font-size: 34px;
+    margin-top:30px;
+}
+.sale{
+    font-family:saira,sans-serif;
+}
+.abc{
+    color:lightgray;
+    text-align: center;
+    font-family:saira,sans-serif;
+}
+.box{
+    width:170px;
+    background:#fff;
+    border-radius:30px;
+    box-shadow: 0px 0px 8px 0px lightgrey;
+    margin-top: 10px;
+    padding:5px;
+    height:170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active{
+    border: 3px solid #FD9E00;
+}
+.box p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.image{
+ padding:5px;
+ width: 100px;
+}
+
+.Welcome-message-register{
+    background-image: url("../../../assets/img/Welcome.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -50px;
+
+}
+.all-box{
+    padding-left:30px;
+}
+.button1{
+    float: right;
+    background-color:#fff;
+    color:#333;
+    border:0px;
+    width:100px;
+    height:30px;
+    border-radius: 30px;
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+    outline: none;
+    font-family:saira,sans-serif;
+    
+}
+.button1:hover{
+    color:#FD9E00;
+}
+@media only screen and (max-width: 1440px){
+.Welcome-message-register{
+    background-position-y:10px;
+}
+}
+@media only screen and (max-width: 1370px){
+    .Welcome-message-register{
+        background-position-y:-10px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .box{
+        margin: 20px auto;
+    }
+    .button1{
+        background:#FD9E00;
+        margin:5px;
+        position: relative;
+        top: 5px;
+        right: 35%;
+        margin: 0px 0px 25px 0px;
+
+    }
+    
+.Welcome-message-register{
+    background-image: unset;
+}
+}

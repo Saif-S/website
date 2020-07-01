@@ -1,0 +1,89 @@
+.img1{
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.welcomeregister{
+    background-image: url("../../../assets/img/Welcome.png");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -5px;
+
+}
+.config{
+    font-weight: bold;
+    margin-top: 5px;
+    font-family: saira,sans-serif;
+    font-size: 34px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.abc{
+    color:lightgray;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family:saira,sans-serif;
+}
+input, select, textarea{
+    width: 95%;
+    border: 0px;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 1px lightgrey;
+    margin:10px 0px 0px 10px;
+    padding: 0px 5px;
+    font-family:saira, sans-serif;
+}
+textarea{
+    height: 115px;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../../../assets/img/down-arrow.png');
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: center;
+}
+label{
+    font-size: 15px;
+    margin: 10px 0px 5px 10px;
+    font-family: saira,sans-serif;
+}
+.button1{
+    float: left;
+    background-color:#fff;
+    color:#333;
+    border:0px;
+    width:125px;
+    height:30px;
+    margin-top: 40px;
+    border-radius: 30px; 
+    position: absolute;
+    top:80px;
+    left:10%;
+    font-family:saira,sans-serif;
+}
+.button2{
+    
+    float: right;
+    background-color:#fff;
+    color:#333;
+    border:0px;
+    width:100px;
+    height:30px;
+    border-radius: 30px;
+    position: absolute;
+    right: 70px;
+    top: 122px;
+    font-family:saira,sans-serif;
+ 
+}
+.button1:hover{
+    color:#FD9E00;
+}
+.button2:hover{
+    color:#FD9E00;
+}

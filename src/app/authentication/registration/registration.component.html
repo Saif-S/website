@@ -19,12 +19,12 @@
        <option value="Public Limited Company">Public Limited Company</option>
        <option value="Others">Others</option>
         </select>  -->
-        <input class="email" type="name" id="password" name="password" placeholder="Name">
-        <input class="email" type="name" id="password" name="password" placeholder="Surname">
-        <input class="email" id="email" name="password" placeholder="E-mail">
-        <input class="email" id="phone" name="password" placeholder="Contact No.">
-        <input class="email" id="password" name="password" placeholder="Password">
-        <input class="email" id="password" name="password" placeholder="Confirm Password">
+        <input class="email" type="text" [(ngModel)]="userdata.firstName" name="firstName" id="password"  placeholder="Name" required autocomplete='off'>
+        <input class="email" type="text" [(ngModel)]="userdata.lastName" name="lastName" id="password"  placeholder="Surname" required autocomplete='off'>
+        <input class="email" type="email" id="email" [(ngModel)]="userdata.email" name="email" placeholder="E-mail" required autocomplete='off'>
+        <input class="email" type="number" id="phone" [(ngModel)]="userdata.contactNo" name="contactNo" placeholder="Contact No." required autocomplete='off'>
+        <input class="email" type="password" id="password" [(ngModel)]="password"  name="password" placeholder="Password" required autocomplete='off'>
+        <input class="email" type="password" id="password" [(ngModel)]="confpassword" name="confpassword"  placeholder="Confirm Password" required autocomplete='off'>
         </div>
         <div class="row">
         <div class="col-md-1">
@@ -38,7 +38,7 @@
                 </label>
         </div>
         <div class="col-md-3">
-        <button class="sign" [routerLink]="['/']">Sign Up</button>
+        <button class="sign" (click)="register()">Sign Up</button>
         </div>
         <div class="col-md-2">
         </div>

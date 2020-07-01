@@ -1,0 +1,47 @@
+.logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.txt{
+  text-align: center;
+  font-size: 36px;  
+  font-weight: 500;
+  font-family:saira,sans-serif;
+} 
+.text{
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    transform: translate(-45%, -50%);
+}
+.cloud{
+    color: #FFBC58;
+}
+.just{
+    color:lightgray;
+    text-align: center;
+    font-size: 15px;
+    font-family:saira,sans-serif;
+}
+.Welcome-message-login{
+    background-image: url("../../../assets/img/Welcome.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -50px;
+}
+@media only screen and (max-width:500px){
+    .text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .txt{
+        font-size: 22px;
+    }
+    .Welcome-message-login{
+        background-image:unset;
+    }
+}

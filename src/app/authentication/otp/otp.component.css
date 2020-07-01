@@ -1,0 +1,82 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   width: 100%;
+  }
+.otp{
+	height: 100vh;
+	background-image: url("../../../assets/img/Login.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:0 auto;
+}
+.log{
+    margin:15px 20px;
+	height: 30px;
+	color:black;
+    background: white;
+    float:right;
+    border: white;
+    border-radius: 30px;
+    width: 120px;
+    font-size: 14px;
+    font-family:saira,sans-serif;
+    font-weight: bold;
+    outline: none!important;
+    outline-style: none;  
+
+}
+.logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.box{
+    height: 45%;
+    width: 35%;
+    background:#fff;
+    border-radius:70px;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 4px 0px #888888;
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+    position: absolute;
+   left: 32%;
+    top: 25%;
+}
+.box-logo{
+    width: 20%;
+    margin-top: 15px;
+}
+.email{
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 2px 2px 1px lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    outline: none !important;
+    padding:10px;
+    font-family:saira,sans-serif;
+    text-align: center;
+
+}
+.text p{
+    margin-top: 20px;
+    font-size: 28px;
+    font-family:saira,sans-serif;
+    font-weight:800;
+}
+.button1{
+     background-color:#FD9E00;
+    color:#fff;
+    border:0px;
+    width:100px;
+    height:30px;
+    border-radius: 30px;
+    margin: 25px;
+    outline: none !important;
+    font-family:saira,sans-serif;
+}
+.button1:hover{
+    color:#333;
+}
