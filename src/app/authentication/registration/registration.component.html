@@ -1,4 +1,4 @@
-<div class="container-fluid register">
+z<div class="container-fluid register">
     <div class="row">
         <div class="col-md-6">
             <a [routerLink]="['/home']"><img class="img" src="assets/img/logo2.png"></a>
@@ -22,7 +22,7 @@
         <input class="email" type="text" [(ngModel)]="userdata.firstName" name="firstName" id="password"  placeholder="Name" required autocomplete='off'>
         <input class="email" type="text" [(ngModel)]="userdata.lastName" name="lastName" id="password"  placeholder="Surname" required autocomplete='off'>
         <input class="email" type="email" id="email" [(ngModel)]="userdata.email" name="email" placeholder="E-mail" required autocomplete='off'>
-        <input class="email" type="number" id="phone" [(ngModel)]="userdata.contactNo" name="contactNo" placeholder="Contact No." required autocomplete='off'>
+        <input class="email" type="number" id="phone" maxlength="10" [(ngModel)]="userdata.contactNo" name="contactNo" placeholder="Contact No." required autocomplete='off'>
         <input class="email" type="password" id="password" [(ngModel)]="password"  name="password" placeholder="Password" required autocomplete='off'>
         <input class="email" type="password" id="password" [(ngModel)]="confpassword" name="confpassword"  placeholder="Confirm Password" required autocomplete='off'>
         </div>

@@ -18,15 +18,12 @@ export class UserserivceService {
 
     let promise = new Promise((resolve, reject) => {
     
-    this.http.post(`${path}api/v2/add_payment`, userdata)
-    .subscribe(
-    res => {
-    console.log(res);
-    resolve(res);
-    },
-    err => {
-    console.log("Error occured : " + err);
-    reject(err);
+    this.http.post(`${path}api/v1/register`, userdata).subscribe(res => {
+      console.log(res);
+      resolve(res);
+    },err => {
+      console.log("Error occured : " + err);
+      reject(err);
     }
     );
     
