@@ -24,7 +24,14 @@ export class RegistrationComponent implements OnInit {
           this.userservice.registreuser(this.userdata).then(
             resp=>{
               console.log(resp)
-              this.router.navigate(['/welcome-message-register']);
+              if(resp['msg']=='User registered successfully'){
+                this.router.navigate(['/welcome-message-register']);
+              }else{
+                this.toastr.warning("Something Went Wrong!",'Alert',{
+                  timeOut:3000,
+                  positionClass:'toast-top-center'
+                  })
+              }
             },error=>{
               console.log(error)
             })
