@@ -16,9 +16,12 @@ import { WelcomeMessageLoginComponent } from './authentication/welcome-message-l
 import { OtpComponent } from './authentication/otp/otp.component';
 import {UserserivceService} from './_services/userserivce.service';
 import {ToastrModule} from 'ngx-toastr';
+import typer from 'typer-js';
   // import { from } from 'rxjs';
 import { toTypeScript } from '@angular/compiler';
 import { FormsModule } from '@angular/forms';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,9 @@ import { FormsModule } from '@angular/forms';
     WelcomeRegisterComponent,
     WelcomeMessageRegisterComponent,
     WelcomeMessageLoginComponent,
-    OtpComponent
+    OtpComponent,
+    ComingSoonComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,

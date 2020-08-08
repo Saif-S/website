@@ -95,6 +95,9 @@ body {
     font-weight: 300;
     font-family:saira,sans-serif;
 }
+.lefty{
+    text-align: left;
+}
 @media  screen and (max-width: 1920px){
     .free{
     right: 15px;
@@ -155,6 +158,17 @@ body {
     }
 }
 @media only screen and (max-width:500px){
+   .login{
+    background-image: url("../../../assets/img/register-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:0 auto;
+    height:100vh;
+}  
+  
+    .lefty{
+       text-align: center;
+   }
     .box{
        
         width: 100%;
@@ -168,9 +182,6 @@ body {
     color: white;
     font-weight: 600;
 }
-.login{
-    background-image: unset;
-}
 .img{
     width: 130px;
 }
@@ -179,5 +190,11 @@ body {
 }
 .email{
     width:85%;
+}
+.free{
+    bottom: 2%;
+    right: 15px;
+    font-size: 24px;
+    white-space: nowrap;
 }
 }

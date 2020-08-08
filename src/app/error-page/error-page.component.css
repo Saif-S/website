@@ -1,0 +1,49 @@
+.logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.config{
+    font-weight:800;
+    color:#000;
+    font-family:saira,sans-serif;
+    text-align: center;
+    font-size: 34px;
+    margin-top:30px;
+    word-spacing:5px;
+}
+.abc{
+    font-size:16px;
+    font-weight:600;
+    font-family:saira,sans-serif;
+    text-align: center;
+    color:lightgray;
+}
+.text{
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    transform: translate(-45%, -50%);
+}
+.error-page{
+background-image: url("../../assets/img/Welcome.png");
+height: 100vh;
+background-repeat: no-repeat;
+background-size:cover;
+background-position-y: -50px;
+}
+.back{
+    text-align: center;
+}
+.button{
+    background:#FFBC58;
+    width:170px;
+    height:35px;
+    border-radius:10px;
+    font-size:14px;
+    font-weight:500;
+    font-family:saira,sans-serif;
+    white-space: nowrap;
+    color:#fff;
+    outline: none;
+}

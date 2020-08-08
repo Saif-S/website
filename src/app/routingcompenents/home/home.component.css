@@ -68,20 +68,18 @@
     left:28%;
   }
   .sky-head a{
-      padding: 15px 15px 0px 0px!important;
-      color: #000!important;
-      text-decoration: none;
-      background-color: transparent;
-      font-size: 16px;
-      font-family: saira, sans-serif;
-      display:inline-block;
-      padding:10px;
-      text-decoration: none !important;
-      font-weight: 800;
-      margin-left:20px;
-      margin-right:20px;
-      outline: none;
+    padding: 15px 15px 0px 15px;
+    color: #000!important;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: saira, sans-serif;
+    display: inline-block;
+    text-decoration: none !important;
+    font-weight: 800;
+    margin-right: 20px;
+    outline: none;
   }
+
   .navbar-toggler{
     border:none;
   }
@@ -95,16 +93,27 @@
       justify-content:flex-end;
       text-align: right;
   }
-  .active:hover{
+  .nav-item .active{
       color: #FD9E00!important;
       border-bottom: 1px solid #FD9E00;
+      padding:5px;
+  }
+  .nav-item:hover{
+    color: #FD9E00;
+    border-bottom: 1px solid #FD9E00;  
   }
   .abc{
-      font-size:55px;
+      font-size:50px;
       font-family: saira, sans-serif;
       font-weight:bolder;
       white-space: nowrap;
+      display:flex;
   }
+  .typer{
+  margin-left: 10px;
+    font-size: 60px;
+    color:#FD9E00;
+    }
   .buss{
       color:#FD9E00!important;
       font-weight: bold;
@@ -120,6 +129,7 @@
       font-weight:bold;
       font-family: Saira, sans-serif;
       font-size: 14px;
+      padding:5px;
   }
   .btn{
     background-color: #FD9E00;
@@ -133,6 +143,7 @@
     font-family: Saira, sans-serif;
     margin: 10px;
     font-size: 14px;
+    padding:5px;
 }
 .section{
     background-image:url('../../../assets/img/Path 53772.png');
@@ -817,15 +828,15 @@ width: 100%;
 .box-flignite{
     background: #fff;
     margin: 0px 18px;
-    width: 271px;
+    width: 270px;
     height: 140px;
     border-radius: 15px;
     
 }
 .box-flignite img{
     position: relative;
-    top: 30%;
-    left: 15%;
+    top: 30px;
+    left: 35px;
     width: 75%;
 }
 .brand{
@@ -877,6 +888,7 @@ width: 100%;
   font-weight: 600;
   border: 1px solid #FD9E00;
   border-radius: 30px;
+  font-family:saira,sans-serif;
 }
 .company{
     font-family: Saira,sans-serif;
@@ -973,6 +985,18 @@ font-weight:bold;
 .foot-image img{
 width:150px;
 margin: 0px 15px;
+}
+.fa-facebook{
+    color:#FD9E00;
+}
+.fa-instagram{
+    color:#FD9E00;
+}
+.fa-linkedin{
+    color:#FD9E00;
+}
+.fa-twitter{
+    color:#FD9E00;
 }
 @media only screen and (max-width: 1920px) {
    .btn{
@@ -1084,6 +1108,7 @@ margin: 0px 15px;
 }
 .mac{
     width:800px;
+    margin-left: 35px;
     }
 .man img{
     width: 710px;
@@ -1327,7 +1352,13 @@ margin: 0px 15px;
 }
 }
 @media only screen and (max-width:500px){
-.abc{
+    .typer{
+        font-size:30px;
+        position: relative;
+        bottom:2px;
+            
+        }        
+    .abc{
     margin-top: 30px;
     font-size: 35px;
     text-align: center;
@@ -1569,9 +1600,21 @@ left:0px;
     text-align: center;
     font-size: 16px;
 }
+.typer{
+    font-size:30px;
+    position: relative;
+    bottom:2px;
+        
+    }    
 }
 @media only screen and (max-width:420px){
-.cop{
+.typer{
+font-size:30px;
+position: relative;
+bottom:2px;
+    
+}
+    .cop{
     width: 400px;
     height: 360px;
     top: 10%;
@@ -1610,12 +1653,13 @@ left:0px;
     height:100px;
 }
 .made{
-    margin: 45px 10px 0px 0px;
+    margin: 45px 0px 0px 0px;
     width: 350px;
     height: 220px;
 }
 .started{
     width:32%;
+    font-size:15px;
 }
 .box{
     margin:30px 0px 0px 0px;
@@ -1653,6 +1697,13 @@ left:0px;
 }
 }
 @media only screen and (max-width:360px){
+    .typer{
+        font-size:30px;
+        position: relative;
+        bottom:2px;
+            
+        }
+           
     .cop{
         top:10%;
         height:280px;

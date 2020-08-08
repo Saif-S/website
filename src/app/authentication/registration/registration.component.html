@@ -1,14 +1,14 @@
-z<div class="container-fluid register">
+<div class="container-fluid register">
     <div class="row">
         <div class="col-md-6">
             <a [routerLink]="['/home']"><img class="img" src="assets/img/logo2.png"></a>
         </div>
     <div class="col-md-6">
-        <button class="log" [routerLink]="['/login']">Login</button>            
+        <!-- <button class="log" [routerLink]="['/login']">Login</button>             -->
     </div>
 </div>
 <div class="box">
-    <img class="logo" src="assets/img/cloud logo.png">
+    <img class="logo"  src="assets/img/cloud logo.png">
     <div class="input">
          <!-- <select class="entity" name="Entity type" id="Entity Type">
        <option value="">Entity Type</option>
@@ -21,11 +21,10 @@ z<div class="container-fluid register">
         </select>  -->
         <input class="email" type="text" [(ngModel)]="userdata.firstName" name="firstName" id="password"  placeholder="Name" required autocomplete='off'>
         <input class="email" type="text" [(ngModel)]="userdata.lastName" name="lastName" id="password"  placeholder="Surname" required autocomplete='off'>
+        <input class="email" type="text" [(ngModel)]="userdata.companyname" name="companyname" placeholder="Company Name" required autocomplete='off'>
         <input class="email" type="email" id="email" [(ngModel)]="userdata.email" name="email" placeholder="E-mail" required autocomplete='off'>
         <input class="email" type="number" id="phone" maxlength="10" [(ngModel)]="userdata.contactNo" name="contactNo" placeholder="Contact No." required autocomplete='off'>
-        <input class="email" type="password" id="password" [(ngModel)]="password"  name="password" placeholder="Password" required autocomplete='off'>
-        <input class="email" type="password" id="password" [(ngModel)]="confpassword" name="confpassword"  placeholder="Confirm Password" required autocomplete='off'>
-        </div>
+     </div>
         <div class="row">
         <div class="col-md-1">
         </div>
@@ -38,7 +37,7 @@ z<div class="container-fluid register">
                 </label>
         </div>
         <div class="col-md-3">
-        <button class="sign" (click)="register()">Sign Up</button>
+        <button class="sign" (click)="register()">Register</button>
         </div>
         <div class="col-md-2">
         </div>
@@ -48,3 +47,6 @@ z<div class="container-fluid register">
 </div>
 </div>
 </div>
+<footer>
+    <h2 class="free">Only for first 1000 Users.</h2>
+    </footer>

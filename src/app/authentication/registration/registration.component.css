@@ -156,12 +156,26 @@ img{
     margin-left: 15px;
     font-family:saira, sans-serif;
   }
+  .free{
+    color:white;
+    position: absolute;
+    bottom: 2%;
+    right: 15px;
+    font-size: 40px;
+    font-weight: 300;
+    font-family:saira,sans-serif;
+}
   @media only screen and (max-width:1920px){
     .box{
       position:relative;
       top:14%;
       width:35%;
     }
+    .free{
+      right: 15px;
+      bottom:2%;
+      font-size:70px;
+  }
   }
 @media only screen and (max-width:1440px){
   .box{
@@ -169,6 +183,11 @@ img{
     top:10%;
     position: relative;
   }
+  .free{
+    bottom: 20px;
+    right: 20px;
+    font-size: 60px;
+}
 }
 @media only screen and (max-width:1370px){
   .box{
@@ -176,16 +195,40 @@ img{
     top:4%;
     width:40%;
   }
+  .free{
+    bottom: 3%;
+    right: 15px;
+    font-size: 44px;
+}
 }  
+@media only screen and (max-width: 1280px){
+  .free{
+      bottom: 35%;
+      right: 15px;
+      font-size: 50px;
+  }
+}
 @media only screen and (max-width:1080px){
   .box{
     position: relative;
     top:4%;
     width:50%;
   }
+  .free{
+    bottom: 24%;
+    right: 15px;
+    font-size: 44px;
+}
 }
   @media only screen and (max-width:500px){
-      .box{
+    .register{
+      background-image: url("../../../assets/img/register-1.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin:0 auto;
+        height:100vh;
+    }  
+    .box{
         width:100%;
         border-radius: 20px;
       }
@@ -196,7 +239,7 @@ img{
         background-color: orange;
         color: white;
         font-weight: 600;
-        margin: 20px 0px 0px; 
+        margin:15px 0px 0px; 
         outline-style: none;
       }
       .img{
@@ -205,12 +248,16 @@ img{
       .checkmark{
        margin: 0 60px;
       }
-      .register{
-        background-image: unset;
-      }
+      .free{
+        bottom: 2%;
+        right: 15px;
+        font-size: 24px;
+        white-space: nowrap;
+    }
   }
   @media only screen and (min-width: 1440px){
   .option{
     width:10%!important;
   }
+
   }

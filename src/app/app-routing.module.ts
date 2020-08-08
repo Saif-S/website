@@ -8,15 +8,19 @@ import { WelcomeRegisterComponent } from './authentication/welcome-register/welc
 import { WelcomeMessageRegisterComponent } from './authentication/welcome-message-register/welcome-message-register.component';
 import { WelcomeMessageLoginComponent } from './authentication/welcome-message-login/welcome-message-login.component';
 import { OtpComponent } from './authentication/otp/otp.component';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 
 const routes: Routes = [{ path:'',component:HomeComponent},
 { path:'login',component:LoginComponent},
-{ path:'registration',component:RegistrationComponent},
+{ path:'joint-waitlist',component:RegistrationComponent},
 {path:'welcome-register',component:WelcomeRegisterComponent},
 {path:'welcome-message-register',component:WelcomeMessageRegisterComponent},
 {path:'welcome-message-login',component:WelcomeMessageLoginComponent},
 {path:'otp',component:OtpComponent},
+{path:'coming-soon',component:ComingSoonComponent},
+{path:'error-page', component:ErrorPageComponent},
 { path:'**',redirectTo:''}
 ];
 
