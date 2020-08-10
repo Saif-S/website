@@ -3,7 +3,7 @@ export class Config{
     
     constructor(){
     
-    this.baseUrl="https://67c37320bf5c.ngrok.io/"
+    this.baseUrl="https://e39da446e5d6.ngrok.io/"
     
     
     }

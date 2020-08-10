@@ -14,7 +14,7 @@ import { ErrorPageComponent } from './error-page/error-page.component';
 
 const routes: Routes = [{ path:'',component:HomeComponent},
 { path:'login',component:LoginComponent},
-{ path:'joint-waitlist',component:RegistrationComponent},
+{ path:'join-waitlist',component:RegistrationComponent},
 {path:'welcome-register',component:WelcomeRegisterComponent},
 {path:'welcome-message-register',component:WelcomeMessageRegisterComponent},
 {path:'welcome-message-login',component:WelcomeMessageLoginComponent},

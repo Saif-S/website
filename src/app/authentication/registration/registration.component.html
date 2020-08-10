@@ -21,9 +21,9 @@
         </select>  -->
         <input class="email" type="text" [(ngModel)]="userdata.firstName" name="firstName" id="password"  placeholder="Name" required autocomplete='off'>
         <input class="email" type="text" [(ngModel)]="userdata.lastName" name="lastName" id="password"  placeholder="Surname" required autocomplete='off'>
-        <input class="email" type="text" [(ngModel)]="userdata.companyname" name="companyname" placeholder="Company Name" required autocomplete='off'>
+        <input class="email" type="text" [(ngModel)]="userdata.companyName" name="companyName" placeholder="Company Name" required autocomplete='off'>
         <input class="email" type="email" id="email" [(ngModel)]="userdata.email" name="email" placeholder="E-mail" required autocomplete='off'>
-        <input class="email" type="number" id="phone" maxlength="10" [(ngModel)]="userdata.contactNo" name="contactNo" placeholder="Contact No." required autocomplete='off'>
+        <input class="email" type="tel" id="phone" maxlength="10" [(ngModel)]="userdata.contactNo" name="contactNo" placeholder="Contact No." required autocomplete='off'>
      </div>
         <div class="row">
         <div class="col-md-1">
@@ -37,13 +37,20 @@
                 </label>
         </div>
         <div class="col-md-3">
-        <button class="sign" (click)="register()">Register</button>
+        <button class="sign" (click)="register()">Join Waitlist</button>
         </div>
         <div class="col-md-2">
         </div>
         </div>
         </div>
            
+</div>
+<div class="gif">
+<img src="../../../assets/img/e80652af2c77e3a73858e16b2ffe5f9a.gif">
+</div>
+<div class="thanks">
+<h5>Thank You for Joined the Waitlist</h5>
+<p>Our Client relationship executive will reach out to you and help you onboard with us</p>
 </div>
 </div>
 </div>
