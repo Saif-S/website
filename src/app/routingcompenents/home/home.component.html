@@ -59,7 +59,7 @@
           <button class="button" [routerLink]="['/login']">Login</button>
           <button class="btn" [routerLink]="['/join-waitlist']">Join the Waitlist</button>
         </div>
-      </div>  
+      </div>
     </nav>
   </div>
   <div class="row">
@@ -68,8 +68,8 @@
         <h3 class="abc">The future of <span class="typer"></span></h3>
         <p class="simple">Simplify your procurements to payments processes<br> using our  unified free new commerce platform.</p>
         <div class="input">
-          <input class="email" type="email" id="email" name="email" placeholder="E-mail ID">
-          <button class="button2" [routerLink]="['/']">Join the Waitlist</button>
+          <input class="email" type="email" [(ngModel)]="email" id="email" name="email" placeholder="E-mail ID">
+          <button class="button2" [routerLink]="['/join-waitlist']" (click)='getemail()'>Join the Waitlist</button>
         </div>
       </div>
     </div>
@@ -139,7 +139,7 @@
             <img class="mac" src="../../../assets/img/Macbook black.png">
           </div>
           <div class="col-md-3">
-          </div> 
+          </div>
         </div>
       </div>
     </div>
@@ -216,7 +216,7 @@
   </div>
   <div class="row">
     <div class="col-md-1">
-     
+
     </div>
     <div class="col-md-5 text-center" id="second" data-aos="fade-up" data-aos-duration="1800">
       <img class="freedom" src="../../../assets/img/Stats with results@2x.png">
@@ -255,8 +255,8 @@
     <div class="col-md-12 section2">
       <h2>store.</h2>
       <p class="unique">Set unique price levels for your customer network using our online marketplace. </p>
-    
-  
+
+
   <div class="row">
     <div class="col-md-3 zero"  id="third" data-aos="fade-up" data-aos-duration="1800">
       <div class="abcde">
@@ -312,7 +312,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="row">
     <div class="companies" #Testimonials>
     <div class="col-md-12">
@@ -386,7 +386,7 @@
       </div>
       <div class="col-md-6">
         <div>
-     <input type="image" src="assets/img/Up-Arrow.png" class="arrow" *ngIf="isShow" (click)="gotoTop()"> 
+     <input type="image" src="assets/img/Up-Arrow.png" class="arrow" *ngIf="isShow" (click)="gotoTop()">
       </div>
       </div>
       <div class="col-md-3 spirit">
@@ -485,4 +485,3 @@
       </div>
     </div>
   </div>
-  
